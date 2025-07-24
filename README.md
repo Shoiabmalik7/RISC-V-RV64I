@@ -1,6 +1,5 @@
 # RISC-V-RV64I
 
-Overview
 The RISC-V RV64I processor implemented here is a 64-bit, 5-stage pipelined processor that supports the basic RV64I instruction set architecture. It uses a pipeline consisting of five stages: Fetch, Decode, Execute, Memory, and Write-back (IF, ID, EX, MEM, WB). Each stage performs specific tasks, and instructions pass through these stages during execution. This processor supports a variety of instruction types including R-type, I-type, S-type, B-type, L-type, and J-type instructions.
 
 Processor Architecture
